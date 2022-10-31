@@ -1,0 +1,1026 @@
+                                                        * {
+                                                            margin: 0px;
+                                                            padding: 0px;
+                                                        }
+                                                        
+                                                        body {
+                                                            font-family: sans-serif;
+                                                        }
+                                                        
+                                                        .parent {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            justify-content: space-between;
+                                                            font-family: sans-serif;
+                                                            padding: 0px 120px 0px 120px;
+                                                            height: 90px;
+                                                        }
+                                                        
+                                                        .first_parent {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            margin: 20px;
+                                                        }
+                                                        
+                                                        .logo {
+                                                            font-size: 30px;
+                                                        }
+                                                        
+                                                        .first_parent svg {
+                                                            color: #167ce9;
+                                                            width: 40px;
+                                                            height: 40px;
+                                                        }
+                                                        
+                                                        .university {
+                                                            color: #167ce9;
+                                                            font-size: 20px;
+                                                        }
+                                                        
+                                                        .second_parent {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            align-items: center;
+                                                            gap: 20px;
+                                                            margin: 50px;
+                                                            color: #55688b;
+                                                            font-size: 18px;
+                                                        }
+                                                        
+                                                        .home {
+                                                            color: #167ce9;
+                                                        }
+                                                        
+                                                        .button button {
+                                                            width: 150px;
+                                                            height: 50px;
+                                                            background-color: #167ce9;
+                                                            border-radius: 30px;
+                                                            -webkit-border-radius: 30px;
+                                                            -moz-border-radius: 30px;
+                                                            -ms-border-radius: 30px;
+                                                            -o-border-radius: 30px;
+                                                            color: white;
+                                                            border: 1px;
+                                                            font-size: 20px;
+                                                            margin: 15px 0px 0px 0px;
+                                                        }
+                                                        
+                                                        .div_img {
+                                                            position: relative;
+                                                            width: 100%;
+                                                            height: 600px;
+                                                        }
+                                                        
+                                                        .parent_back {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            width: 100%;
+                                                            height: 600px;
+                                                            align-items: center;
+                                                            margin: 0;
+                                                            padding: 0;
+                                                        }
+                                                        
+                                                        section {
+                                                            width: 100%;
+                                                            height: 600px;
+                                                            background: url(background.jpg);
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .overly {
+                                                            position: absolute;
+                                                            width: 100%;
+                                                            height: 600px;
+                                                            background: linear-gradient(to right, rgb(138, 3, 248), rgb(241, 241, 2));
+                                                            opacity: 0.5;
+                                                        }
+                                                        
+                                                        .div_text {
+                                                            width: 700px;
+                                                            height: 200px;
+                                                            position: absolute;
+                                                            top: 25%;
+                                                            left: 25%;
+                                                            color: white;
+                                                            font-size: 55px;
+                                                            font-family: sans-serif;
+                                                            font-weight: 10px;
+                                                            text-align: center;
+                                                            text-align-last: 5px;
+                                                        }
+                                                        
+                                                        .two_button_main {
+                                                            position: absolute;
+                                                            top: 45%;
+                                                            left: 40%;
+                                                            gap: 10px;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .two_button_main button {
+                                                            border-radius: 40px;
+                                                            -webkit-border-radius: 40px;
+                                                            -moz-border-radius: 40px;
+                                                            -ms-border-radius: 40px;
+                                                            -o-border-radius: 40px;
+                                                            border: 0px;
+                                                            color: white;
+                                                            font-size: 20px;
+                                                            font-family: sans-serif;
+                                                            font-weight: 20px;
+                                                        }
+                                                        
+                                                        .button_one {
+                                                            width: 130px;
+                                                            height: 60px;
+                                                            background-color: #167ce9;
+                                                        }
+                                                        
+                                                        .button_two {
+                                                            width: 180px;
+                                                            height: 60px;
+                                                            background-color: rgb(216, 216, 0);
+                                                        }
+                                                        
+                                                        .main_div_top {
+                                                            display: flex;
+                                                            position: relative;
+                                                            top: 40px;
+                                                            left: -450px;
+                                                            height: 250px;
+                                                            width: 600px;
+                                                        }
+                                                        
+                                                        .main_div_top_child {
+                                                            display: block;
+                                                            color: #606e9c;
+                                                            width: 300px;
+                                                            background-color: white;
+                                                            font-family: sans-serif;
+                                                            font-size: 16px;
+                                                            text-align: center;
+                                                            text-align-last: initial;
+                                                            padding-top: 20px;
+                                                            padding-left: 1px;
+                                                            padding-right: 1px;
+                                                        }
+                                                        
+                                                        .p1 {
+                                                            font-size: 20px;
+                                                            color: #5d6c9e;
+                                                        }
+                                                        
+                                                        .p2 {
+                                                            color: black;
+                                                            font-size: 22px;
+                                                        }
+                                                        
+                                                        .main_div_top_child_second {
+                                                            background: url(divbackgroun.jpg);
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            width: 300px;
+                                                            height: 250px;
+                                                        }
+                                                        
+                                                        .back_div_img {
+                                                            display: flex;
+                                                            flex-direction: start;
+                                                            justify-content: center;
+                                                            margin: 0px 0px 0px 120px;
+                                                            width: 1100px;
+                                                            height: 250px;
+                                                        }
+                                                        
+                                                        .img_3 {
+                                                            background: url(Notebook-at-Computer.jpg);
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            width: 300px;
+                                                            height: 250px;
+                                                        }
+                                                        
+                                                        .text_3 {
+                                                            width: 800px;
+                                                            background-color: #167ce9;
+                                                        }
+                                                        
+                                                        .text_3 .know_that {
+                                                            margin-top: 40px;
+                                                        }
+                                                        
+                                                        .text_3 div {
+                                                            margin-top: 10px;
+                                                            margin-left: 40px;
+                                                        }
+                                                        
+                                                        .know_that {
+                                                            color: #959ca8;
+                                                            font-size: 18px;
+                                                        }
+                                                        
+                                                        .i_want {
+                                                            color: white;
+                                                            font-size: 30px;
+                                                            font-weight: 15px;
+                                                        }
+                                                        
+                                                        .input_button input {
+                                                            height: 60px;
+                                                            width: 600px;
+                                                            border: none;
+                                                            padding-left: 20px;
+                                                            font-size: 20px;
+                                                        }
+                                                        
+                                                        .input_button button {
+                                                            height: 60px;
+                                                            width: 100px;
+                                                            color: white;
+                                                            background-color: #ffc300;
+                                                            border: none;
+                                                            margin-left: -4px;
+                                                            font-size: 20px;
+                                                        }
+                                                        
+                                                        .just_browsing {
+                                                            color: white;
+                                                            font-size: 15px;
+                                                        }
+                                                        
+                                                        .just_browsing a {
+                                                            font-size: 15px;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .cart_1_parent {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            gap: 130px;
+                                                            margin-top: 150px;
+                                                        }
+                                                        
+                                                        .cart_1_parent div img {
+                                                            width: 80px;
+                                                            height: 80px;
+                                                            border-radius: 50px;
+                                                            -webkit-border-radius: 50px;
+                                                            -moz-border-radius: 50px;
+                                                            -ms-border-radius: 50px;
+                                                            -o-border-radius: 50px;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .cart_1_parent div {
+                                                            text-align: center;
+                                                            height: 200px;
+                                                            width: 250px;
+                                                        }
+                                                        
+                                                        .pp1 {
+                                                            font-size: 20px;
+                                                            margin-top: 10px;
+                                                            font-weight: 10px;
+                                                            color: black;
+                                                        }
+                                                        
+                                                        .pp2 {
+                                                            font-size: 20px;
+                                                            margin-top: 10px;
+                                                            font-weight: 10px;
+                                                            color: black;
+                                                        }
+                                                        
+                                                        .pp3 {
+                                                            font-size: 20px;
+                                                            margin-top: 10px;
+                                                            font-weight: 10px;
+                                                            color: black;
+                                                        }
+                                                        
+                                                        .cart_1_parent p {
+                                                            margin-top: -150px;
+                                                            color: #8c95a5;
+                                                            font-size: 17px;
+                                                            font-weight: 20px;
+                                                        }
+                                                        
+                                                        .leading {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            height: 400px;
+                                                            width: 100%;
+                                                            background: url(library200.jpg);
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            margin-top: 200px;
+                                                        }
+                                                        
+                                                        .leading_child {
+                                                            position: absolute;
+                                                            width: 100%;
+                                                            height: 400px;
+                                                            background: linear-gradient(to right, #7d20ff, #ffe24f);
+                                                            opacity: 0.7;
+                                                        }
+                                                        
+                                                        .leading_child_1 {
+                                                            position: absolute;
+                                                            margin-top: 130px;
+                                                            font-size: 50px;
+                                                            text-align: center;
+                                                            width: 700px;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .leading_child_2 {
+                                                            position: absolute;
+                                                            background: url(play-flat.png);
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            max-height: 120px;
+                                                            max-width: 150px;
+                                                            width: 100px;
+                                                            height: 100px;
+                                                            margin-top: 350px;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .underleading {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            height: 300px;
+                                                            width: 100%;
+                                                            gap: 80px;
+                                                            background-color: #f8faff;
+                                                        }
+                                                        
+                                                        .underleading div {
+                                                            margin-top: 150px;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .underleading h2 {
+                                                            font-size: 40px;
+                                                            font-weight: 100;
+                                                        }
+                                                        
+                                                        .underleading p {
+                                                            color: rgb(165, 157, 157);
+                                                            font-size: 14px;
+                                                        }
+                                                        
+                                                        .our_student {
+                                                            display: flex;
+                                                            font-size: 30px;
+                                                            font-weight: 10px;
+                                                            justify-content: center;
+                                                            margin-top: 150px;
+                                                            margin-bottom: 50px;
+                                                        }
+                                                        
+                                                        .teacher {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            justify-content: center;
+                                                            gap: 20px;
+                                                            margin-top: 100px;
+                                                            margin-bottom: 100px;
+                                                        }
+                                                        
+                                                        .teacher .student {
+                                                            width: 300px;
+                                                            height: 380px;
+                                                            background-color: white;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .teacher img {
+                                                            height: 100px;
+                                                            width: 100px;
+                                                            border-radius: 50%;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            -webkit-border-radius: 50%;
+                                                            -moz-border-radius: 50%;
+                                                            -ms-border-radius: 50%;
+                                                            -o-border-radius: 50%;
+                                                            margin-top: -15%;
+                                                        }
+                                                        
+                                                        .teacher_0 {
+                                                            box-shadow: 45px 7px 60px 5px rgb(207, 202, 202);
+                                                        }
+                                                        
+                                                        .teacher_1 {
+                                                            box-shadow: 0px 0px 20px 5px rgb(207, 202, 202);
+                                                            position: relative;
+                                                        }
+                                                        
+                                                        .teacher_2 {
+                                                            box-shadow: -45px 7px 60px 5px rgb(207, 202, 202);
+                                                        }
+                                                        
+                                                        .teacher .pd1 {
+                                                            margin-top: 50px;
+                                                            margin-bottom: 50px;
+                                                            color: #8a919c;
+                                                            font-size: 16px;
+                                                        }
+                                                        
+                                                        .teacher .pd2 {
+                                                            margin-top: 25px;
+                                                            color: #959ca8;
+                                                        }
+                                                        
+                                                        .teacher h4 {
+                                                            color: #167ce9;
+                                                        }
+                                                        
+                                                        .social {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            align-items: center;
+                                                            width: 100%;
+                                                            height: 800px;
+                                                            margin-top: 100px;
+                                                            background-color: #f8faff;
+                                                        }
+                                                        
+                                                        .our_experience {
+                                                            margin: 100px 0px 100px 0px;
+                                                            font-size: 35px;
+                                                        }
+                                                        
+                                                        .after_our {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            justify-content: center;
+                                                            gap: 50px;
+                                                        }
+                                                        
+                                                        .social .after_our .s_div {
+                                                            height: 320px;
+                                                            width: 350px;
+                                                            background-color: white;
+                                                            box-shadow: -45px 7px 60px 5px rgb(207, 202, 202);
+                                                            box-shadow: 0px 0px 20px 5px rgb(207, 202, 202);
+                                                            box-shadow: 45px 7px 60px 5px rgb(207, 202, 202);
+                                                        }
+                                                        
+                                                        .s_div p {
+                                                            color: #8a919c;
+                                                            text-align: left;
+                                                            margin-top: 20px;
+                                                            padding: 0px 10px 0px 10px;
+                                                            line-height: 30px;
+                                                        }
+                                                        
+                                                        .after_our img {
+                                                            height: 110px;
+                                                            width: 110px;
+                                                            border-radius: 50%;
+                                                            -webkit-border-radius: 50%;
+                                                            -moz-border-radius: 50%;
+                                                            -ms-border-radius: 50%;
+                                                            -o-border-radius: 50%;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            margin: 30px 0px 0px 20px;
+                                                        }
+                                                        
+                                                        .center_div {
+                                                            margin: -100px 10px 0px 150px;
+                                                        }
+                                                        
+                                                        .center_div h3 {
+                                                            color: #167ce9;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .center_div p {
+                                                            margin: 10px 0px 10px 0px;
+                                                            color: #8c95a5;
+                                                        }
+                                                        
+                                                        .social_parent {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            gap: 3px;
+                                                        }
+                                                        
+                                                        .center_div .twiter {
+                                                            background: url("twitter.png");
+                                                            height: 30px;
+                                                            width: 30px;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .center_div .facebook {
+                                                            background: url("facebook.png");
+                                                            height: 30px;
+                                                            width: 30px;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            border-radius: 50%;
+                                                            -webkit-border-radius: 50%;
+                                                            -moz-border-radius: 50%;
+                                                            -ms-border-radius: 50%;
+                                                            -o-border-radius: 50%;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .center_div .instagram {
+                                                            background: url("instagram.png");
+                                                            height: 30px;
+                                                            width: 30px;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            border-radius: 50%;
+                                                            -webkit-border-radius: 50%;
+                                                            -moz-border-radius: 50%;
+                                                            -ms-border-radius: 50%;
+                                                            -o-border-radius: 50%;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .yello_div {
+                                                            display: flex;
+                                                            justify-content: space-evenly;
+                                                            gap: 300px;
+                                                            align-items: center;
+                                                            height: 200px;
+                                                            width: 100%;
+                                                            background-color: #ffc300;
+                                                            margin-bottom: 100px;
+                                                        }
+                                                        
+                                                        .yello_div .p_y_d {
+                                                            color: black;
+                                                            font-size: 30px;
+                                                            text-align: justify;
+                                                            font-weight: 8px;
+                                                            margin-bottom: 30px;
+                                                        }
+                                                        
+                                                        .yello_div .p_y_d1 {
+                                                            color: rgba(0, 0, 0, 0.781);
+                                                            font-size: 16px;
+                                                            text-align: justify;
+                                                        }
+                                                        
+                                                        .yello_div button {
+                                                            width: 120px;
+                                                            height: 60px;
+                                                            background-color: #167ce9;
+                                                            border-radius: 40px;
+                                                            border: none;
+                                                            -webkit-border-radius: 40px;
+                                                            -moz-border-radius: 40px;
+                                                            -ms-border-radius: 40px;
+                                                            -o-border-radius: 40px;
+                                                            color: white;
+                                                            font-size: 18px;
+                                                            padding: 10px;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .three_div_for_enroll {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .courses_our {
+                                                            font-size: 40px;
+                                                        }
+                                                        
+                                                        .three_div_for_enroll .enroll {
+                                                            height: 590px;
+                                                            width: 350px;
+                                                            align-items: center;
+                                                            box-shadow: 0px 0px 64px 17px rgb(207, 202, 202);
+                                                            box-shadow: 0px 0px 64px 17px rgb(207, 202, 202);
+                                                            box-shadow: 0px 0px 64px 17px rgb(207, 202, 202);
+                                                        }
+                                                        
+                                                        .enroll img {
+                                                            width: 350px;
+                                                            height: 300px;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .for_flex_direction {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            flex-direction: row;
+                                                            gap: 100px;
+                                                            margin-top: 100px;
+                                                        }
+                                                        
+                                                        .enroll div {
+                                                            text-align: left;
+                                                            padding: 20px 20px 20px 20px;
+                                                            line-height: 25px;
+                                                        }
+                                                        
+                                                        .paragaraph_top {
+                                                            color: #8a919c;
+                                                        }
+                                                        
+                                                        .p_a_t {
+                                                            margin: 10px 0px 10px 0px;
+                                                            font-size: 25px;
+                                                        }
+                                                        
+                                                        .p_all {
+                                                            margin: 0px 0px 20px 0px;
+                                                            color: #959ca8;
+                                                            font-size: 16px;
+                                                        }
+                                                        
+                                                        .enroll button {
+                                                            width: 120px;
+                                                            height: 45px;
+                                                            background-color: #167ce9;
+                                                            border-radius: 40px;
+                                                            border: none;
+                                                            -webkit-border-radius: 40px;
+                                                            -moz-border-radius: 40px;
+                                                            -ms-border-radius: 40px;
+                                                            -o-border-radius: 40px;
+                                                            color: white;
+                                                            font-size: 18px;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .hill_of_italic {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            align-items: center;
+                                                            margin: 100px 200px 10px 200px;
+                                                            text-align: justify;
+                                                        }
+                                                        
+                                                        .when_she strong {
+                                                            color: rgb(78, 76, 76);
+                                                        }
+                                                        
+                                                        .when_she p {
+                                                            color: #4e4d4d;
+                                                        }
+                                                        
+                                                        .browsing {
+                                                            display: flex;
+                                                            justify-content: start;
+                                                            margin: 40px 200px 10px 200px;
+                                                        }
+                                                        
+                                                        .browsing p {
+                                                            color: #5c607579;
+                                                            font-weight: 10px;
+                                                        }
+                                                        
+                                                        .browsing a {
+                                                            color: #167ce9;
+                                                            font-family: sans-serif;
+                                                            text-decoration: none;
+                                                            font-weight: 10px;
+                                                        }
+                                                        
+                                                        .recent_from {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            align-items: center;
+                                                            background-color: #e1e8fa;
+                                                            width: 100%;
+                                                            height: 800px;
+                                                            margin-top: 100px;
+                                                        }
+                                                        
+                                                        .from_blog {
+                                                            font-size: 40px;
+                                                            margin-top: 100px;
+                                                            margin-bottom: 70px;
+                                                        }
+                                                        
+                                                        .from_flex_directon {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            justify-content: center;
+                                                            gap: 50px;
+                                                        }
+                                                        
+                                                        .from_flex_directon .blog {
+                                                            height: 460px;
+                                                            width: 340px;
+                                                            text-align: justify;
+                                                            background-color: white;
+                                                        }
+                                                        
+                                                        .from_flex_directon .blog img {
+                                                            height: 220px;
+                                                            width: 340px;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .blog p {
+                                                            text-align: justify;
+                                                            margin: 10px 20px 0px 20px;
+                                                        }
+                                                        
+                                                        .paragaraph_blog {
+                                                            color: #8c95a5;
+                                                        }
+                                                        
+                                                        .p_a_b {
+                                                            font-size: 20px;
+                                                        }
+                                                        
+                                                        .p_all_b {
+                                                            color: #606e9c;
+                                                            line-height: 30px;
+                                                        }
+                                                        
+                                                        .latest_event {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            align-items: center;
+                                                            margin-top: 100px;
+                                                            height: 750px;
+                                                            width: 100%;
+                                                        }
+                                                        
+                                                        .ourlatest {
+                                                            font-size: 35px;
+                                                            margin: 70px 0px 100px 0px;
+                                                        }
+                                                        
+                                                        .latest_direction {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            gap: 50px;
+                                                        }
+                                                        
+                                                        .latest_direction .event {
+                                                            height: 450px;
+                                                            width: 330px;
+                                                            box-shadow: 0px 0px 50px 3px gray;
+                                                        }
+                                                        
+                                                        .event img {
+                                                            width: 330px;
+                                                            height: 230px;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .event p {
+                                                            text-align: justify;
+                                                            line-height: 20px;
+                                                            margin: 20px 20px 20px 20px;
+                                                        }
+                                                        
+                                                        .event a {
+                                                            margin-left: 20px;
+                                                            color: #167ce9;
+                                                        }
+                                                        
+                                                        .event_p {
+                                                            color: #606e9c;
+                                                            font-size: 14px;
+                                                        }
+                                                        
+                                                        .p_a_event {
+                                                            font-size: 21px;
+                                                        }
+                                                        
+                                                        .event_all_p {
+                                                            color: #55688b;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .subscribe_parent {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            width: 100%;
+                                                            height: 300px;
+                                                            background: linear-gradient(to right, rgb(129, 0, 189), rgba(238, 202, 0, 0.87));
+                                                        }
+                                                        
+                                                        .subscribe {
+                                                            color: white;
+                                                            font-size: 40px;
+                                                            margin-bottom: 30px;
+                                                        }
+                                                        
+                                                        .sub_p {
+                                                            color: rgb(199, 193, 193);
+                                                            font-size: 20px;
+                                                            margin-bottom: 30px;
+                                                        }
+                                                        
+                                                        .sub_input input {
+                                                            width: 400px;
+                                                            height: 80px;
+                                                            font-size: 20px;
+                                                            color: rgb(199, 193, 193);
+                                                            background: transparent;
+                                                            border-radius: 50px 0px 0px 50px;
+                                                            -webkit-border-radius: 50px 0px 0px 50px;
+                                                            -moz-border-radius: 50px 0px 0px 50px;
+                                                            -ms-border-radius: 50px 0px 0px 50px;
+                                                            -o-border-radius: 50px 0px 0px 50px;
+                                                            border: 1px solid;
+                                                            border-color: rgb(199, 193, 193);
+                                                            padding-left: 20px;
+                                                        }
+                                                        
+                                                        .sub_input button {
+                                                            width: 150px;
+                                                            height: 82px;
+                                                            font-size: 20px;
+                                                            color: rgb(199, 193, 193);
+                                                            background: transparent;
+                                                            border-radius: 0px 50px 50px 0px;
+                                                            -webkit-border-radius: 0px 50px 50px 0px;
+                                                            -moz-border-radius: 0px 50px 50px 0px;
+                                                            -ms-border-radius: 0px 50px 50px 0px;
+                                                            -o-border-radius: 0px 50px 50px 0px;
+                                                            border: 1px solid;
+                                                            border-color: rgb(199, 193, 193);
+                                                            border-left: none;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        footer {
+                                                            height: 1000px;
+                                                            width: 100%;
+                                                            background: url(fotter.jpg);
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        footer .footer_overly {
+                                                            position: absolute;
+                                                            width: 100%;
+                                                            height: 1000px;
+                                                            background: black;
+                                                            opacity: 0.92;
+                                                        }
+                                                        
+                                                        .strong_color {
+                                                            color: rgb(199, 193, 193);
+                                                        }
+                                                        
+                                                        .on_footer_overly {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            position: absolute;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            margin: 100px 100px 100px 100px;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        .footer_parent {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            height: 700px;
+                                                            width: 300px;
+                                                            margin-top: 150px;
+                                                        }
+                                                        
+                                                        .logo_one {
+                                                            font-size: 30px;
+                                                        }
+                                                        
+                                                        .logo_one svg {
+                                                            height: 35px;
+                                                            width: 35px;
+                                                            color: #167ce9;
+                                                        }
+                                                        
+                                                        .university_one {
+                                                            color: #167ce9;
+                                                            font-size: 17px;
+                                                        }
+                                                        
+                                                        .div_after_university {
+                                                            position: relative;
+                                                            margin-top: 50px;
+                                                        }
+                                                        
+                                                        .div_after_university p {
+                                                            font-size: 20px;
+                                                            color: white;
+                                                            line-height: 30px;
+                                                        }
+                                                        
+                                                        .social_parent_one {
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            margin-top: 100px;
+                                                            gap: 10px;
+                                                        }
+                                                        
+                                                        .twiter_one {
+                                                            background: url(twitter.png);
+                                                            height: 70px;
+                                                            width: 70px;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .facebook_one {
+                                                            background: url(facebook.png);
+                                                            height: 70px;
+                                                            width: 70px;
+                                                            border-radius: 50%;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            -webkit-border-radius: 50%;
+                                                            -moz-border-radius: 50%;
+                                                            -ms-border-radius: 50%;
+                                                            -o-border-radius: 50%;
+                                                        }
+                                                        
+                                                        .instagram_one {
+                                                            background: url(instagram.png);
+                                                            height: 70px;
+                                                            width: 70px;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                        }
+                                                        
+                                                        .recent_parent_blog {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            margin: 50px 0px 0px 50px;
+                                                            height: 550px;
+                                                            gap: 30px;
+                                                        }
+                                                        
+                                                        .recent_parent_blog img {
+                                                            width: 100px;
+                                                            height: 100px;
+                                                            background-size: cover;
+                                                            overflow: hidden;
+                                                            gap: 50px;
+                                                        }
+                                                        
+                                                        .recent_p_blog_parent {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            width: 300px;
+                                                            gap: 100px;
+                                                            margin-top: -190px;
+                                                            margin-left: -10px;
+                                                        }
+                                                        
+                                                        .recent_p_blog_parent p {
+                                                            font-size: 20px;
+                                                        }
+                                                        
+                                                        .sitelink {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            gap: 30px;
+                                                            margin-top: -245px;
+                                                            margin-left: 30px;
+                                                            align-items: center;
+                                                        }
+                                                        
+                                                        .sitelink p {
+                                                            margin-top: 20px;
+                                                            margin-bottom: 10px;
+                                                        }
+                                                        
+                                                        .have_a_question {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            align-items: center;
+                                                            gap: 30px;
+                                                            margin-top: -300px;
+                                                            justify-content: center;
+                                                            width: 250px;
+                                                            margin: left 100px;
+                                                            position: relative;
+                                                        }
+                                                        
+                                                        .have_a_question p {
+                                                            margin: 20px 0px 0px 40px;
+                                                            text-align: start;
+                                                        }
